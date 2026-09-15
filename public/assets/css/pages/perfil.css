@@ -1,0 +1,194 @@
+@import url("../global.css");
+@import url("../components.css");
+
+.pfp-atual {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border: 3px solid #e2e8f0;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: transform 0.2s;
+}
+
+.pfp-atual:hover {
+    transform: scale(1.04);
+}
+
+.pfp-hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.pfp-hero-wrapper small {
+    color: #94a3b8;
+    font-size: 0.72rem;
+}
+
+.pfp-preview {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #e2e8f0;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+    object-fit: cover;
+}
+
+.btn-action {
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.form-card form + hr {
+    margin: 2.5rem 0;
+}
+
+.form-card form .row {
+    padding: 0 0.25rem;
+}
+
+.form-card .form-label {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+}
+
+.form-card .form-control {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+}
+
+.form-card .form-control:focus {
+    border-color: var(--itsuki-primary);
+    box-shadow: 0 0 0 4px var(--itsuki-primary-light);
+}
+
+.form-card .border-top {
+    border-color: var(--border-color) !important;
+}
+
+#perfilImageModal .modal-content {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#perfilImageModal .modal-header {
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, #fff 0%, #f1f5f9 100%);
+}
+
+#perfilImageModal .modal-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+
+#perfilImageModal .drop-zone {
+    padding: 3rem 2rem;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-lg);
+    background-color: #f8fafc;
+    text-align: center;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+#perfilImageModal .drop-zone:hover,
+#perfilImageModal .drop-zone.dragover {
+    border-color: var(--itsuki-primary);
+    background-color: var(--itsuki-primary-light);
+}
+
+#perfilImageModal .nav-tabs .nav-link.active {
+    color: var(--itsuki-primary);
+    border-bottom-color: var(--itsuki-primary);
+}
+
+#perfilImageModal .nav-tabs .nav-link {
+    color: var(--text-secondary);
+}
+
+#perfilImageModal .nav-tabs .nav-link:hover {
+    color: var(--itsuki-primary);
+}
+
+.cropper-modal-content {
+    border: none;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #f8fafc;
+}
+
+.cropper-modal-header {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 20px 24px;
+    background: linear-gradient(135deg, #fff 0%, #f1f5f9 100%);
+}
+
+.cropper-modal-header .modal-title {
+    color: #1e293b;
+    font-size: 1.1rem;
+}
+
+.cropper-modal-body {
+    min-height: 350px;
+    background-color: #0f172a;
+}
+
+.cropper-modal-footer {
+    border-top: 1px solid #e2e8f0;
+    padding: 16px 24px;
+    background: linear-gradient(135deg, #f1f5f9 0%, #fff 100%);
+}
+
+.cropper-view-box,
+.cropper-face {
+    border-radius: 50%;
+}
+
+.cropper-modal .cropper-modal {
+    background-color: transparent !important;
+    opacity: 1 !important;
+}
+
+.cropper-face {
+    opacity: 0;
+}
+
+.cropper-view-box {
+    outline-color: var(--itsuki-primary) !important;
+    outline-color: rgba(201, 8, 121, 0.75) !important;
+}
+
+.cropper-line,
+.cropper-point {
+    background-color: var(--itsuki-primary) !important;
+}
+
+.cropper-point {
+    background-color: var(--itsuki-primary) !important;
+}
+
+.cropper-invert {
+    color: var(--itsuki-primary) !important;
+}
+
+#modalPfpZoom .modal-content {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#modalPfpZoom .modal-body {
+    background: #0f172a;
+}
+
+#modalPfpZoom .modal-footer {
+    background: #0f172a;
+}

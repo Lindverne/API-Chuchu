@@ -1,0 +1,12 @@
+# Imagens de pratos — manter apenas os 5 seed do banco
+public/assets/img/pratos/*
+!public/assets/img/pratos/coxinha_frango.png
+!public/assets/img/pratos/hamburguer_artesanal.png
+!public/assets/img/pratos/lasanha_bolonhesa.png
+!public/assets/img/pratos/pastel_frango.png
+!public/assets/img/pratos/pizza_mussarela.png
+!public/assets/img/pratos/prato_padrao.png
+
+# Imagens de usuários — manter apenas o avatar padrão
+public/assets/img/usuarios/*
+!public/assets/img/usuarios/avatar_padrao.png

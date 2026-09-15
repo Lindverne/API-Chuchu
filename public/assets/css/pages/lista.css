@@ -1,0 +1,133 @@
+@import url("../global.css");
+@import url("../components.css");
+
+.table-responsive {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--itsuki-primary-light);
+    background-color: #faf5ff;
+    color: var(--itsuki-primary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.table-hover tbody tr:hover {
+    background-color: var(--itsuki-primary-light);
+}
+
+.table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+.btn-editar {
+    padding: 6px 10px;
+    border: 1px solid var(--itsuki-gold);
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--itsuki-gold);
+    transition: all var(--transition-fast);
+}
+
+.btn-editar:hover {
+    background: var(--itsuki-gold);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(252, 215, 78, 0.4);
+}
+
+.btn-excluir {
+    padding: 6px 10px;
+    border: 1px solid var(--color-danger);
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--color-danger);
+    transition: all var(--transition-fast);
+}
+
+.btn-excluir:hover {
+    background: var(--color-danger);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(220, 53, 69, 0.4);
+}
+
+.search-form .form-control,
+.search-form .form-select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 0.85rem;
+}
+
+.search-form .btn-search {
+    border-color: var(--itsuki-primary);
+    border-radius: var(--radius-md);
+    background: var(--itsuki-primary);
+    color: #fff;
+    font-weight: 600;
+}
+
+.search-form .btn-search:hover {
+    background: var(--itsuki-primary-hover);
+}
+
+.page-link {
+    border: none;
+    color: var(--itsuki-primary);
+    font-weight: 500;
+}
+
+.page-item.active .page-link {
+    border-radius: var(--radius-sm);
+    background-color: var(--itsuki-primary);
+    color: #fff;
+}
+
+.page-link:hover {
+    background-color: var(--itsuki-primary-light);
+    color: var(--itsuki-primary);
+}
+
+.empty-state {
+    padding: 3rem;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+.empty-state i {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--itsuki-primary-light);
+    font-size: 3rem;
+}
+
+.preco-col {
+    color: var(--itsuki-primary);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.produto-img {
+    width: 56px;
+    height: 56px;
+    border: 2px solid var(--itsuki-primary-light);
+    border-radius: var(--radius-md);
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: all var(--transition-normal);
+}
+
+.produto-img:hover {
+    border-color: var(--itsuki-primary);
+    box-shadow: var(--shadow-hover);
+    transform: scale(1.1);
+}

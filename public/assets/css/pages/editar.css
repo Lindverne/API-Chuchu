@@ -1,0 +1,98 @@
+@import url("../global.css");
+@import url("../components.css");
+
+.form-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    border: none;
+}
+
+.form-control,
+.form-select {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: var(--bg-input);
+    border-color: var(--itsuki-primary);
+    box-shadow: 0 0 0 4px var(--itsuki-primary-light);
+}
+
+.form-label {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.preview-atual {
+    max-width: 180px;
+    max-height: 180px;
+    border: 3px solid var(--itsuki-primary-light);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.drop-zone {
+    padding: 2rem;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-lg);
+    background-color: #f8fafc;
+    text-align: center;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.drop-zone:hover,
+.drop-zone.dragover {
+    border-color: var(--itsuki-primary);
+    background-color: var(--itsuki-primary-light);
+}
+
+.drop-zone-text {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.drop-zone-text i {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--itsuki-primary);
+    font-size: 2rem;
+}
+
+.btn-salvar {
+    padding: 0.75rem 1.5rem;
+    border-color: var(--color-success);
+    border-radius: var(--radius-md);
+    background: var(--color-success);
+    color: #fff;
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.btn-salvar:hover {
+    background: #218838;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+    transform: translateY(-1px);
+    color: #fff;
+}
+
+.btn-voltar {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--itsuki-primary);
+    border-radius: var(--radius-md);
+    background: transparent;
+    color: var(--itsuki-primary);
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.btn-voltar:hover {
+    background: var(--itsuki-primary);
+    color: #fff;
+}

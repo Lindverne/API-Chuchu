@@ -1,0 +1,152 @@
+@import url('variables.css');
+
+body {
+    min-height: 100vh;
+    color: var(--text-secondary);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: url("../img/global/fundo.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swal2-image-round {
+    margin: 1.25em auto !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover !important;
+}
+
+.table-itsuki > thead {
+    background: var(--itsuki-primary-light);
+}
+
+.table-itsuki > thead th {
+    border-bottom: 2px solid var(--itsuki-primary);
+    padding: 0.85rem 1rem;
+    color: var(--itsuki-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.table-itsuki > tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table-itsuki > tbody tr:hover {
+    background-color: rgba(201, 8, 121, 0.04);
+}
+
+.table-itsuki > tbody td {
+    padding: 0.85rem 1rem;
+    vertical-align: middle;
+}
+
+.table-itsuki .produto-img-table {
+    width: 64px;
+    height: 64px;
+    border: 2px solid var(--itsuki-primary-light);
+    border-radius: 12px;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: all 0.25s ease;
+}
+
+.table-itsuki .produto-img-table:hover {
+    border-color: var(--itsuki-primary);
+    box-shadow: 0 4px 12px rgba(201, 8, 121, 0.2);
+    transform: scale(1.1);
+}
+
+.filtro-preco-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filtro-preco-wrapper .form-select {
+    flex: 1;
+}
+
+.filtro-preco-wrapper .btn-filtro {
+    white-space: nowrap;
+}
+
+.product-img {
+    width: 68px !important;
+    height: 68px !important;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.product-img:hover {
+    transform: scale(1.08);
+    box-shadow: var(--shadow-hover) !important;
+}
+
+#previewFotoModal .modal-content {
+    border: none;
+    border-radius: var(--radius-xl);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+#previewFotoModal .modal-header {
+    border-bottom: none;
+    background-color: #fff;
+}
+
+#previewFotoModal .modal-footer {
+    border-top: none;
+    background-color: #fff;
+}
+
+#btnSobreOSite {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 1050;
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(201, 8, 121, 0.3);
+    cursor: pointer;
+    transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+#btnSobreOSite:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(201, 8, 121, 0.4);
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: var(--bg-input);
+    border-color: var(--itsuki-primary);
+    box-shadow: 0 0 0 4px var(--itsuki-primary-light);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--itsuki-secondary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--itsuki-primary);
+}

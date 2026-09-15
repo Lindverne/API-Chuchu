@@ -1,0 +1,46 @@
+:root {
+    --itsuki-primary: #c90879;
+    --itsuki-secondary: #f23078;
+    --itsuki-light: #fffade;
+    --itsuki-yellow: #f5f05f;
+    --itsuki-gold: #fcd74e;
+
+    --itsuki-primary-hover: #a80665;
+    --itsuki-primary-light: rgba(201, 8, 121, 0.12);
+    --itsuki-secondary-light: rgba(242, 48, 120, 0.15);
+    --itsuki-gold-light: rgba(252, 215, 78, 0.25);
+
+    --color-success: #28a745;
+    --color-success-light: rgba(40, 167, 69, 0.15);
+    --color-danger: #dc3545;
+    --color-danger-light: rgba(220, 53, 69, 0.15);
+    --color-warning: #ffc107;
+    --color-info: #c90879;
+
+    --text-primary: #1a1a2e;
+    --text-secondary: #4a5568;
+    --text-muted: #a0aec0;
+    --text-on-primary: #fff;
+
+    --bg-card: #fff;
+    --bg-card-overlay: rgba(255, 255, 255, 0.95);
+    --bg-body: #f5f0ff;
+    --bg-input: #fff;
+
+    --border-color: #dee2e6;
+    --border-focus: var(--itsuki-primary);
+
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.03);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 6px 24px rgba(201, 8, 121, 0.12);
+
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-2xl: 24px;
+
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.25s ease;
+}
