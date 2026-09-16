@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="public/assets/img/extras/Api_Chuchu.png" alt="API Chuchu Banner" width="100%" style="max-width: 920px; border-radius: 20px; box-shadow: 0 20px 60px rgba(1,22,30,0.35);">
+</p>
 
 <br>
 
