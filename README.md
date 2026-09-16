@@ -45,7 +45,7 @@
 </p>
 
 <p align="center">
-  Através de uma interface moderna construída com <strong>Bootstrap 5</strong> e <strong>SweetAlert2</strong>, o sistema oferece uma experiência fluida com modais estilizados, drag-and-drop de imagens, cropper de foto de perfil via <strong>CropperJS</strong> e tema personalizado com a paleta da personagem <strong>Itsuki Nakano</strong>. Do backend ao frontend, cada componente foi pensado para demonstrar boas práticas de desenvolvimento web com PHP vanilla.
+  Através de uma interface moderna construída com <strong>Bootstrap 5</strong> e <strong>SweetAlert2</strong>, o sistema oferece uma experiência fluida com modais estilizados, drag-and-drop de imagens e cropper de foto de perfil via <strong>CropperJS</strong>.
 </p>
 
 <br>
@@ -73,7 +73,7 @@
 </p>
 
 <p align="center">
-  O desenvolvimento do API Chuchu foi finalizado com todas as funcionalidades planejadas implementadas: autenticação, CRUD completo de pratos, gestão de perfil com upload e cropper de imagens, filtros, troca de senha e sistema de notificações com SweetAlert2.
+  O desenvolvimento do API Chuchu foi finalizado com todas as funcionalidades planejadas implementadas: autenticação, CRUD completo de pratos, gestão de perfil com upload e cropper de imagens, filtros, troca de senha e sistema de notificações com SweetAlert2. :3
 </p>
 
 <br>
@@ -613,7 +613,7 @@ API_Chuchu/
 </p>
 
 <h3 align="center">
-  🍜 Gerenciamento inteligente de cardápio com PHP, Bootstrap e boas práticas. Um Projeto de Programação Web (PWE).
+  🍜 Gerenciamento inteligente de cardápio com PHP e Bootstrap. Um Projeto de Programação Web (PWE).
 </h3>
 
 <br>
